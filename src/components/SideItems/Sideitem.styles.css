@@ -1,0 +1,10 @@
+.icon-wrapper{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+
+    & span{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+}

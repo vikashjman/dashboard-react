@@ -1,0 +1,37 @@
+.bug-wrapper{
+    background-color: var(--background-tab-color);
+    padding:1rem 0.9rem;
+    border-radius: 10px;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    & h2{
+        margin: 0;
+        font-size: 1rem;
+        margin-bottom: 0.6rem;
+    }
+    & p{
+        text-align: center;
+        font-size: 0.7rem;
+        margin-bottom: 1.3rem;
+
+    }
+
+    & button{
+        background-color: var(--primary-color);
+        padding: 0.5em 3em;
+        outline: none;
+        color: white;
+        font-size: 0.8rem;
+        border: 0px;
+        border-radius: 10px;
+        margin-top: 0.3rem;
+        cursor: pointer;
+        &:hover{
+            background-color: var(--dark-green);
+        }
+    }
+}

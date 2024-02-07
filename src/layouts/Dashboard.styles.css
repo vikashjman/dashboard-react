@@ -1,0 +1,12 @@
+.dashboard-wrapper{
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    gap: 1.2rem;
+}
+
+@media (max-width: 1480px){
+    .dashboard-wrapper{
+        gap: 1rem;
+    }
+}

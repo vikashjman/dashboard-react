@@ -1,0 +1,56 @@
+.info-card {
+    background-color: white;
+    color: var(--primary-color);
+    /* display: inline-block; */
+    width: 270px;
+    padding: 1.4rem 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    & span {
+        align-self: flex-start;
+    }
+
+    & h4 {
+        font-weight: normal;
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    & .numerical {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & h3 {
+            font-size: 1.7rem;
+            color: var(--dark-green);
+        }
+    }
+}
+
+p.fail {
+    background-color: var(--text-light-pink-color);
+    padding: 0.1rem 1.2rem;
+    font-size: 0.6rem;
+    border-radius: 3px;
+    color: var(--text-pink-color);
+    font-weight: 700;
+}
+
+p.pass{
+    background-color: rgb(211, 251, 211);
+    padding: 0.1rem 1.2rem;
+    font-size: 0.6rem;
+    border-radius: 3px;
+    color: green;
+    font-weight: 700;
+}
